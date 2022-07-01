@@ -7,6 +7,9 @@
 
 All components apart from the chart were developed and styled by myself.
 
+# Instructions
+Run **yarn install/npm install** and then **yarn start/npm start**.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
