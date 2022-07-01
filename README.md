@@ -8,7 +8,7 @@
 All components apart from the chart were developed and styled by myself.
 
 # Instructions
-Run **yarn install/npm install** and then **yarn start/npm start**
+Run **yarn install/npm install** and then **yarn start/npm start**.\
 Run **yarn test/npm test** to run the tests.
 
 # Getting Started with Create React App
