@@ -1,0 +1,215 @@
+@import "../../core/style/mixins";
+@import "../../core/style/variables";
+
+$fontSize: 1.4rem;
+$borderColor: #aaa;
+
+@mixin separator {
+  &:not(:last-child)::after {
+    content: "";
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(50%);
+    border-right: 1px solid $borderColor;
+  }
+}
+
+.table-container {
+  min-height: 40rem;
+  max-height: calc(100vh - #{$topBarHeight} - #{$mainContentVertMargin} - 17rem);
+  overflow: auto;
+
+  @include maxWidthMedium() {
+    max-height: 80vh;
+  }
+}
+
+.table {
+  width: 100%;
+  max-height: 80vh;
+  border-collapse: collapse;
+  border: none;
+
+  * {
+    font-size: $fontSize;
+  }
+
+  td,
+  th {
+    padding: 0.5rem 1rem;
+
+    @include maxWidthMedium {
+      @include separator;
+    }
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    tr {
+      background-color: $colorPrimaryDark;
+      color: #fff;
+      border-left: 1px solid $borderColor;
+      border-right: 1px solid $borderColor;
+
+      &.header--filter {
+        border-bottom: 1px solid $borderColor;
+      }
+    }
+
+    th {
+      position: relative;
+      font-weight: 400;
+      margin: 1rem 0;
+
+      @include maxWidthMedium {
+        &:nth-child(1) {
+          position: sticky;
+          left: 0;
+          z-index: 9;
+          background-color: $colorPrimaryDark;
+        }
+      }
+
+      .sort {
+        display: inline-flex;
+        flex-direction: column;
+        margin: 0 1rem;
+        cursor: pointer;
+
+        span {
+          $arrowFontSize: 2.4rem;
+          font-size: $arrowFontSize;
+
+          &.sort-asc {
+            margin-bottom: calc(-#{$arrowFontSize} / 2);
+          }
+
+          &.inactive {
+            opacity: 0.3;
+          }
+        }
+      }
+    }
+
+    &--name,
+    &--location {
+      text-align: left;
+    }
+
+    &--registered,
+    &--phone {
+      text-align: right;
+    }
+
+    &--picture,
+    &--actions {
+      text-align: center;
+    }
+
+    .text-field {
+      display: block;
+      width: 100%;
+      min-width: 12rem;
+      margin: 0.2rem 0;
+      background-color: inherit;
+      border-color: currentColor;
+
+      &,
+      &::placeholder {
+        color: inherit;
+      }
+
+      &.registered,
+      &.phone {
+        margin-left: auto;
+        text-align: right;
+      }
+    }
+  }
+
+  tbody.users {
+    tr {
+      border: 1px solid $borderColor;
+
+      td {
+        position: relative;
+
+        @include maxWidthMedium {
+          &:nth-child(1) {
+            position: sticky;
+            left: 0;
+            background-color: #fff;
+            z-index: 9;
+          }
+        }
+      }
+    }
+
+    .user {
+      &--name,
+      &--location {
+        text-align: left;
+      }
+
+      &--registered,
+      &--phone {
+        text-align: right;
+      }
+
+      &--thumbnail,
+      &--actions {
+        text-align: center;
+      }
+
+      &--thumbnail {
+        img {
+          border-radius: 50%;
+          height: 3.6rem;
+        }
+      }
+
+      &--actions {
+        * {
+          font-size: 2rem;
+        }
+
+        &--delete {
+          color: $colorError;
+        }
+      }
+    }
+
+    .no-results {
+      height: 3.6rem;
+      text-align: center;
+    }
+  }
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+
+  &--info {
+    margin-right: 2.5rem;
+    font-size: $fontSize;
+  }
+
+  &--navigate-left {
+    margin-right: 0.5rem;
+  }
+
+  &--navigate-left,
+  &--navigate-right {
+    font-size: $fontSize;
+  }
+}

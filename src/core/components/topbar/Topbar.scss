@@ -1,0 +1,60 @@
+@import "../../style/mixins";
+@import "../../style/variables";
+
+.topbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: $topBarHeight;
+  padding: 0.5rem 1rem;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: $colorPrimaryDark;
+  @include boxShadowLight;
+
+  transition: all 0.2s ease-out;
+  transform-origin: top;
+
+  &.invisible {
+    transform: scaleY(0.3) translateY(-$topBarHeight);
+    opacity: 0;
+  }
+
+  .logo {
+    background: url("https://2246731.fs1.hubspotusercontent-na1.net/hub/2246731/hubfs/Spearline_hubspot_favicon-01.png?width=108&height=108");
+    width: calc(#{$topBarHeight} - 1rem);
+    height: calc(#{$topBarHeight} - 1rem);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .menu {
+    &,
+    &::before,
+    &::after {
+      height: 2px;
+      width: 2rem;
+      background-color: #fff;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+    }
+
+    &::before {
+      margin-top: -0.5rem;
+    }
+
+    &::after {
+      margin-top: 0.5rem;
+    }
+  }
+}

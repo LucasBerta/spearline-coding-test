@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300;400;700&family=Tiro+Telugu&display=swap");
+
+@import "./core/style/mixins";
+@import "./core/style/variables";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This sets 1rem to 10px to be easier to calc sizes.
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+  height: 100%;
+
+  @include maxWidthMedium {
+    font-size: 56.25%;
+  }
+
+  @include maxWidthSmall {
+    font-size: 50%;
+  }
+
+  * {
+    font-size: 1.6rem;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Merriweather", serif;
+  font-family: "Tiro Telugu", serif;
+  line-height: 1.3;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  z-index: 1000;
+
+  @include maxWidthMedium {
+    width: 3px;
+    height: 3px;
+  }
+
+  &-thumb {
+    border-radius: 3px;
+    background-color: $colorPrimaryDark;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../style/variables";
+
+.text-field {
+  border: none;
+  border-bottom: 1px solid #777;
+  height: 2.2rem;
+  font-size: 1.4rem;
+  padding: 1.3rem 0;
+
+  &::placeholder {
+    opacity: 0.9;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid $colorPrimaryDark;
+  }
+}

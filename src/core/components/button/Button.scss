@@ -1,0 +1,19 @@
+.btn {
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+  width: 3.6rem;
+  height: 3.6rem;
+
+  &,
+  &:active,
+  &:focus {
+    border: none;
+    outline: none;
+  }
+
+  &-icon {
+    background-color: transparent;
+    border-radius: 50%;
+  }
+}

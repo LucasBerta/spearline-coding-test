@@ -1,0 +1,282 @@
+[
+  {
+    "gender": "female",
+    "name": {
+      "title": "Mrs",
+      "first": "Bruna",
+      "last": "Robin"
+    },
+    "location": {
+      "street": {
+        "number": 4958,
+        "name": "Rue Victor-Hugo"
+      },
+      "city": "Rouen",
+      "state": "Nièvre",
+      "country": "France",
+      "postcode": 92661,
+      "coordinates": {
+        "latitude": "0.0342",
+        "longitude": "117.1632"
+      },
+      "timezone": {
+        "offset": "-10:00",
+        "description": "Hawaii"
+      }
+    },
+    "email": "alexia.robin@example.com",
+    "login": {
+      "uuid": "0e917fcb-ec1a-4bcb-8882-4f9336a2951d",
+      "username": "bigfish975",
+      "password": "knicks",
+      "salt": "UgQUXTqH",
+      "md5": "67dcaddf4d165e8648269c9dbbcbc4db",
+      "sha1": "16fced345b1e671ce8b9818f8cd64800a08c4c41",
+      "sha256": "6cbbe2ec18bd673afdb8a2c6d42fc3a1851c67004fd5d6b8acb39538d61697cb"
+    },
+    "dob": {
+      "date": "1976-12-08T05:11:35.562Z",
+      "age": 46
+    },
+    "registered": {
+      "date": "2005-11-17T16:31:55.727Z",
+      "age": 17
+    },
+    "phone": "02-61-63-08-49",
+    "cell": "06-32-37-38-15",
+    "id": {
+      "name": "INSEE",
+      "value": "2NNaN43307155 70"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/18.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/18.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/18.jpg"
+    },
+    "nat": "FR"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Carlos",
+      "last": "Houtepen"
+    },
+    "location": {
+      "street": {
+        "number": 915,
+        "name": "Eiland"
+      },
+      "city": "Alphen",
+      "state": "Noord-Holland",
+      "country": "Netherlands",
+      "postcode": 44197,
+      "coordinates": {
+        "latitude": "-1.7117",
+        "longitude": "163.8021"
+      },
+      "timezone": {
+        "offset": "+5:30",
+        "description": "Bombay, Calcutta, Madras, New Delhi"
+      }
+    },
+    "email": "morrison.houtepen@example.com",
+    "login": {
+      "uuid": "535b5e28-6551-4b28-8b1b-4a5b1709667c",
+      "username": "beautifulgoose833",
+      "password": "nathan",
+      "salt": "ACWcJmzx",
+      "md5": "f8f47c560df91406f55db4153e93a121",
+      "sha1": "284424c9b5c4a3c11520db4e8e59f399385d645e",
+      "sha256": "5121077578bb30fbc2d714a9400502562b7cf6f0c8e07c7eeb23215b54de2df1"
+    },
+    "dob": {
+      "date": "1955-04-29T01:15:26.015Z",
+      "age": 67
+    },
+    "registered": {
+      "date": "2008-08-03T19:20:19.544Z",
+      "age": 14
+    },
+    "phone": "(335)-004-7259",
+    "cell": "(900)-872-3873",
+    "id": {
+      "name": "BSN",
+      "value": "39773808"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/74.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/74.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg"
+    },
+    "nat": "NL"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Anthony",
+      "last": "Bowman"
+    },
+    "location": {
+      "street": {
+        "number": 491,
+        "name": "Springfield Road"
+      },
+      "city": "Lichfield",
+      "state": "Shropshire",
+      "country": "United Kingdom",
+      "postcode": "Z54 6LJ",
+      "coordinates": {
+        "latitude": "-83.4434",
+        "longitude": "27.3996"
+      },
+      "timezone": {
+        "offset": "-3:30",
+        "description": "Newfoundland"
+      }
+    },
+    "email": "jar.bowman@example.com",
+    "login": {
+      "uuid": "366a06d3-5b65-4810-ab39-ef10ec45ec56",
+      "username": "bluezebra268",
+      "password": "nickel",
+      "salt": "DqNYlVwe",
+      "md5": "c0f996d189c4ffac44e2608ea438899e",
+      "sha1": "4bb4b23278a0464c0f8e840c37ea98b77f1e43f8",
+      "sha256": "6e4503e369417bd13b1e91080038f12f314110ff1ed76c65a9a49fc659fef37c"
+    },
+    "dob": {
+      "date": "1957-06-28T04:18:15.534Z",
+      "age": 65
+    },
+    "registered": {
+      "date": "2017-11-26T23:59:55.119Z",
+      "age": 5
+    },
+    "phone": "024 0540 0015",
+    "cell": "0791-255-464",
+    "id": {
+      "name": "NINO",
+      "value": "HA 05 17 51 K"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/82.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/82.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/82.jpg"
+    },
+    "nat": "GB"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Eduardo",
+      "last": "Day"
+    },
+    "location": {
+      "street": {
+        "number": 7658,
+        "name": "Locust Rd"
+      },
+      "city": "Launceston",
+      "state": "New South Wales",
+      "country": "Australia",
+      "postcode": 6571,
+      "coordinates": {
+        "latitude": "85.3237",
+        "longitude": "79.8872"
+      },
+      "timezone": {
+        "offset": "+4:30",
+        "description": "Kabul"
+      }
+    },
+    "email": "dave.day@example.com",
+    "login": {
+      "uuid": "c6e0d867-150c-47cf-b4ac-3c51a2f23eda",
+      "username": "organiccat255",
+      "password": "bungle",
+      "salt": "RR7wNKHC",
+      "md5": "5dd8b6ea307f149f09a427f9ae0246f3",
+      "sha1": "676dac7cb5aefe8675c6756a6f58d57789bcaaf8",
+      "sha256": "e0863cf98318170ae303bb1e3d528da40fc4ccd1a405215b5fb8b32e4d6018b4"
+    },
+    "dob": {
+      "date": "1975-12-23T19:32:17.868Z",
+      "age": 47
+    },
+    "registered": {
+      "date": "2015-05-04T22:30:20.193Z",
+      "age": 7
+    },
+    "phone": "02-1066-8874",
+    "cell": "0462-001-268",
+    "id": {
+      "name": "TFN",
+      "value": "082562659"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/19.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/19.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/19.jpg"
+    },
+    "nat": "AU"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Mrs",
+      "first": "Dani",
+      "last": "Poulsen"
+    },
+    "location": {
+      "street": {
+        "number": 8713,
+        "name": "Maribovej"
+      },
+      "city": "Kongens  Lyngby",
+      "state": "Midtjylland",
+      "country": "Denmark",
+      "postcode": 70971,
+      "coordinates": {
+        "latitude": "-56.2232",
+        "longitude": "-18.4590"
+      },
+      "timezone": {
+        "offset": "+4:30",
+        "description": "Kabul"
+      }
+    },
+    "email": "katrine.poulsen@example.com",
+    "login": {
+      "uuid": "2835a273-5bc8-40f2-9af8-0ad59d0c894e",
+      "username": "crazybear482",
+      "password": "boobies",
+      "salt": "XWlgevXf",
+      "md5": "7985bacdf0686f5ccfc19a4086823a1c",
+      "sha1": "c4b836bd69664fbf386bff27895ebfa915a9069b",
+      "sha256": "cf7ebe201ff75f63458854dbe3fb985a13e19118c8e1cd5091c63172370adf52"
+    },
+    "dob": {
+      "date": "1954-08-01T23:21:55.968Z",
+      "age": 68
+    },
+    "registered": {
+      "date": "2009-01-13T00:24:09.867Z",
+      "age": 13
+    },
+    "phone": "73471346",
+    "cell": "73225031",
+    "id": {
+      "name": "CPR",
+      "value": "010854-3285"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/85.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/85.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/85.jpg"
+    },
+    "nat": "DK"
+  }
+]

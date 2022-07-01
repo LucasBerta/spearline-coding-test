@@ -1,0 +1,11 @@
+@import "./core/style/mixins";
+@import "./core/style/variables";
+
+.app {
+  .content {
+    margin: $mainContentVertMargin 3rem;
+    @include maxWidthMedium() {
+      margin: $mainContentVertMargin 1rem;
+    }
+  }
+}
